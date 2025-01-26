@@ -10,6 +10,7 @@ author                      : Paul Hockett  # The author of the book
 copyright                   : "2025"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
 only_build_toc_files        : false  # Skip processing all other files, e.g. backup versions etc.
+exclude_patterns: [extras/*]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
