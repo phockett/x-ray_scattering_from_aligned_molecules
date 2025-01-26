@@ -3,5 +3,17 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: dev/scattering_rotations_sampling_091224
+
+parts:
+ - caption: Development
+   chapters:
+   - file: dev/scattering_rotations_sampling_091224
+   - file: dev/scattering_rotations_sampling_091224-dev-NO2-ADMs-170125
+  
+ - caption: Demos
+   chapters:
+   - file: demos/scattering_rotations_sampling_091224-dev-N2-ADMs-170125
+   - file: demos/scattering_rotations_sampling_091224-dev-naphthalene-ADMs-170125-15kev
+   - file: demos/scattering_rotations_sampling_091224-dev-naphthalene-ADMs-170125-30kev
+   - file: demos/scattering_rotations_sampling_091224-dev-DIBN-ADMs-170125-15kev
+   - file: demos/scattering_rotations_sampling_091224-dev-DIBN-ADMs-170125-30kev
