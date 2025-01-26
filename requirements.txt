@@ -1,3 +1,4 @@
+# CCDS template reqs
 black
 flake8
 isort
@@ -6,4 +7,39 @@ pip
 python-dotenv
 tqdm
 typer
+
+# Install local pkg code
 -e .
+
+# Optional for OSF downloads
+osfclient
+
+# Optional for GHpages/Jupyter Book build
+# NOTE - ePSproc build chain needs a clean up, some unncessary things here.
+jupyter-book
+numpy
+xarray
+scipy
+sympy==1.11.1  # Note in GH builds found 1.11.3 breaks hyperfine modelling code (issue with 3js)
+lmfit
+
+pandas
+odfpy
+uncertainties
+
+holoviews
+hvplot
+# pyviz   # Not sure if this is necessary, also may need pip install pyct[cmd]
+
+h5py
+h5netcdf
+# pytables   # For PD > h5, NOTE: pytables in Conda, tables in pip!
+tables
+
+ghp-import
+wget
+
+# Note some versioning to match local test env.
+# For Matplotlib newer versions have some issues with old Seaborn (v0.9 pinned in ePSproc currently).
+matplotlib <= 3.5.3
+
