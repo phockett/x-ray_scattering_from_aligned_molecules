@@ -12,8 +12,9 @@ parts:
   
  - caption: Demos
    chapters:
-   - file: demos/scattering_rotations_sampling_091224-dev-N2-ADMs-170125
-   - file: demos/scattering_rotations_sampling_091224-dev-naphthalene-ADMs-170125-15kev
+   - file: demos/scattering_rotations_sampling_091224-dev-NO2-ADMs-170125_tidy-15kev
+   - file: demos/scattering_rotations_sampling_091224-dev-NO2-ADMs-170125_tidy-30kev
+   - file: demos/scattering_rotations_sampling_091224-dev-naphthalene-ADMs-170125_tidy-15kev
    - file: demos/scattering_rotations_sampling_091224-dev-naphthalene-ADMs-170125_tidy-30kev
-   - file: demos/scattering_rotations_sampling_091224-dev-DIBN-ADMs-170125-15kev
-   - file: demos/scattering_rotations_sampling_091224-dev-DIBN-ADMs-170125-30kev
+   - file: demos/scattering_rotations_sampling_091224-dev-DIBN-ADMs-170125_tidy-15kev
+   - file: demos/scattering_rotations_sampling_091224-dev-DIBN-ADMs-170125_tidy-30kev
